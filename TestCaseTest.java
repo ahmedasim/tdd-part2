@@ -47,6 +47,10 @@ public class TestCaseTest extends TestCase {
 		result.testStarted();
 		result.testFailed();
 	}
+	public void testBrokenMethod(){
+		//throw new RuntimeException("Method not found");
+	}
+
 	
 	public void testSuite(){
 		
